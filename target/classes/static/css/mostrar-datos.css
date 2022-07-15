@@ -1,0 +1,72 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+}
+
+.foto {
+    margin: 1rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.input {
+    font-size: 25px;
+    margin: 1rem;
+}
+
+.btn-atras {
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    margin: 1rem;
+    color: black;
+    background-color: #dcdf2b;
+}
+
+.btn-atras a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-atras:hover {
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    width: 85px;
+    height: 45px;
+    font-size: 24px;
+    background-color: #bbbe06;
+}
+
+.form-control {
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.info-texto {
+    margin: 5rem;
+    font-size: 25px;
+}
+
+#txtMotivo {
+    width: 350px;
+    height: 100px;
+}
+
+.formulario {
+    margin: 1rem;
+}

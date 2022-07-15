@@ -1,0 +1,250 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #F5F5F5;
+}
+
+
+/*H2*/
+
+.main-como-h2 {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-quienes-h2 {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-unite-h2 {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-atrapado-h2 {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Quienes somos*/
+
+.main-quienes {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/img-fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+.quienes-contenido {
+    height: 100%;
+    width: 50%;
+}
+
+.main-quienes-img {
+    width: 50%;
+}
+
+.main-quienes p {
+    font-size: 18px;
+    padding: 1rem;
+}
+
+
+/*MAIN COMO*/
+
+.main-como {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+.main-como-img {
+    height: 330px;
+}
+
+.main-como-divs {
+    display: flex;
+    margin: 30px;
+}
+
+.main-como-ol-li {
+    color: black;
+    font-size: 18px;
+    margin: 3rem;
+}
+
+.main-como-ol-li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-como-ol-li a:Hover {
+    color: rgb(207, 196, 92);
+    transition: 1s;
+    font-size: 25px;
+    text-decoration: dotted;
+}
+
+.cards-como {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-como {
+    margin: 1rem;
+    width: 50%;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.card-link {
+    color: rgba(0, 0, 0, 0.829);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.card-info-como a:hover {
+    transition: 1s;
+    font-size: 22px;
+    color: rgb(212, 203, 74);
+}
+
+.card-como-img {
+    height: 60%;
+}
+
+#leyes {
+    background-image: url(../img/estudiar-leyes.jpg);
+    background-size: cover;
+}
+
+#portacion {
+    background-image: url(../img/portar-armas.jpg);
+    background-size: cover;
+}
+
+#trabaja {
+    background-image: url(../img/trabaja.jpg);
+    background-size: cover;
+}
+
+
+/*Atrapados*/
+
+.main-atrapado-h2 {
+    color: rgb(0, 0, 0);
+}
+
+.main-atrapado {
+    height: 500px;
+    /*background-image: url(../img/fondo.jpg);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fila-atrapado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.main-atrapado-card {
+    height: 320px;
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    align-items: center;
+    align-content: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.main-atrapado-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    overflow: auto;
+}
+
+.main-atrapado-card-img {
+    height: 200px;
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.main-registrate {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.btn-registrate {
+    margin: 5rem;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(207, 173, 18, 0.616);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.btn-registrate a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.btn-registrate:hover {
+    background-color: rgba(204, 207, 18, 0.616);
+    color: rgb(85, 84, 84);
+    transition: 1s;
+    height: 80px;
+}
+
+.main-registrate {
+    display: flex;
+    flex-direction: row;
+}
+
+.registrate-info {
+    font-size: 20px;
+    width: 30%;
+}
+
+#foto-registrar {
+    height: 100%;
+    width: 50%;
+}
+
+.registrate-logo {
+    margin: 2rem;
+    width: 30%;
+    height: 300px;
+    background-image: url(../img/fotito.jpg);
+    background-size: cover;
+}

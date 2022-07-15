@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos del criminal</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" href="./css/mostrar-datos.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="shortcut icon" href="./img/icos/ico-detective.ico" type="image/x-icon">
+</head>
+<!--txtSexo,Nombre,Recompensa-->
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header-logo">
+                <img src="./img/logo.png" alt="">
+                <h1 class="header-h1">Codo A Codo Buscar</h1>
+            </div>
+            <nav class="header-nav">
+                <a href="./inicio.html" class="header-nav-a">Home</a>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="foto">
+            <img v-bind:src="usuario.imagen" alt="">
+            <div class="txtImagen"></div>
+        </div>
+        <div class="info">
+            <form class="formulario">
+                <div class="mb-3" style="display:none;">
+                    <label class="input" for="txtId">Id</label>
+                    <input type="text" class="form-control" name="txtId" id="txtId" disabled><br>
+                </div>
+                <div class="mb-3">
+                    <label class="input" for="txtId">Sexo:</label>
+                    <input type="text" class="form-control" name="txtSexo" id="txtSexo" disabled><br>
+                </div>
+                <div class="mb-3">
+                    <label class="input" for="txtNombre">Nombre:</label>
+                    <input type="text" class="form-control" name="txtNombre" id="txtNombre" disabled><br>
+                </div>
+                <div class="mb-3">
+                    <label class="input" for="txtRecompensa">Recompensa:</label>
+                    <input type="text" class="form-control" name="txtRecompensa" id="txtRecompensa" disabled> <br>
+                </div>
+                <div class="mb-2">
+                    <label class="input" for="txtMotivo">Motivo:</label>
+                    <input type="text" class="form-control" name="txtMotivo" id="txtMotivo" disabled> <br>
+                </div>
+                <input style="display: none ;" id="txtImagen" type="text" name="" id="">
+
+            </form>
+        </div>
+        <div class="info-texto">
+            <p>Ultima vez visto en .... <br> Mas informacion sobre el criminal: <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, eum iusto maxime fuga, repudiandae deleniti repellendus nemo doloremque provident hic sit voluptatem ipsam
+                cumque, eius commodi modi explicabo odit ad. </p>
+            <button type="button" class="btn-atras"><a href="./base-cazarecompensas.html">Atras</a></button>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p class="footer-p">
+                Trabajo realizado por Martin Fernandez 'Codo a Codo 4.0'
+            </p>
+            <div class="footer-redes">
+
+            </div>
+        </div>
+    </footer>
+    <script src="./js/mostrar_datos.js"></script>
+</body>
+
+</html>

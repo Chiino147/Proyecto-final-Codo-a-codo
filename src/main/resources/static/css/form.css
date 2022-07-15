@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-formulario {
+    text-align: center;
+}
+
+.main-formulario label {
+    font-size: 28px;
+}
+
+.main-formulario div {
+    margin: 1rem;
+}
+
+.inputNombre {
+    width: 300px;
+    height: 30px;
+    font-weight: 30px;
+    border-radius: 25px;
+}
+
+.inputApellido {
+    width: 300px;
+    height: 30px;
+    font-weight: 30px;
+    border-radius: 25px;
+}
+
+.inputEdad {
+    width: 300px;
+    height: 30px;
+    font-weight: 30px;
+    border-radius: 25px;
+}
+
+.inputEmail {
+    width: 300px;
+    height: 30px;
+    font-weight: 30px;
+    border-radius: 25px;
+}
+
+.inputTelefono {
+    width: 300px;
+    height: 30px;
+    font-weight: 30px;
+    border-radius: 25px;
+}
+
+.InputTxtArea {
+    width: 300px;
+    height: 80px;
+    font-weight: 30px;
+    border-radius: 25px;
+}
+
+.btnEnviar {
+    background-color: green;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+}
